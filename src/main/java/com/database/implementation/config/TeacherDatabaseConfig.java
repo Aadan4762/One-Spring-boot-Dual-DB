@@ -24,9 +24,9 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @Configuration
 @EnableTransactionManagement
 @EnableJpaRepositories(
-		entityManagerFactoryRef = "teacherEntityManagerFactory",
+		entityManagerFactoryRef = "entityManagerFactory",
 		basePackages 	 = {"com.database.implementation.teacherRepository"},
-		transactionManagerRef = "teacherTransactionManager"
+		transactionManagerRef = "transactionManager"
 		)
 
 public class TeacherDatabaseConfig {
