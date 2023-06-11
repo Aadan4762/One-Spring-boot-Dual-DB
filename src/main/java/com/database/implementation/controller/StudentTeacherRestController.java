@@ -17,6 +17,7 @@ import com.database.implementation.TeacherEntity.TeacherDTO;
 import com.database.implementation.studentRepository.StudentRepository;
 
 @RestController
+
 public class StudentTeacherRestController {
 	
 	@Autowired
